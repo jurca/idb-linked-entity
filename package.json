@@ -1,0 +1,36 @@
+{
+  "name": "@jurca/idb-linked-entity",
+  "version": "0.0.0",
+  "description": "A wrapper for the idb-entity library that introduces relations between entities using foreign keys.",
+  "main": "EntityManagerFactory.js",
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurca/idb-linked-entity.git"
+  },
+  "keywords": [
+    "IndexedDB",
+    "idb-entity",
+    "indexed-db.es6"
+  ],
+  "author": "Martin Jurča <mjurca@centrum.cz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jurca/idb-linked-entity/issues"
+  },
+  "homepage": "https://github.com/jurca/idb-linked-entity#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-fbjs-opensource": "^1.0.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.2.0",
+    "eslint-plugin-relay": "0.0.14",
+    "flow-bin": "^0.52.0",
+    "jest": "^20.0.4"
+  }
+}
