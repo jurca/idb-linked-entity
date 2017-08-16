@@ -11,5 +11,5 @@ export default class AbstractLinkedEntity extends AbstractEntity {
     }
   }
 
-  static foreignKeys: Array<{[keypath: string]: Class<AbstractLinkedEntity>}> = []
+  static relations: {[keypath: string]: Class<AbstractLinkedEntity> | [Class<AbstractLinkedEntity>]} = {}
 }
