@@ -34,6 +34,7 @@
     "jest": "^20.0.4"
   },
   "dependencies": {
-    "idb-entity": "^0.1.2"
+    "idb-entity": "^0.1.2",
+    "indexed-db.es6": "^0.5.4"
   }
 }
